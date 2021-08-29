@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My first Form</title>
+  </head>
+  <body>
+    <form action="">
+      <h1>Registration Form</h1>
+      <p>Name: <input type="text" name="fname" id="fname" /></p>
+      <p>Email: <input type="email" name="mail" id="mail" /></p>
+      <p>Contact Number: <input type="number" name="phone" id="phone" /></p>
+      <p>Department: <input type="text" name="branch" id="branch" /></p>
+      <p>
+        Year:
+        <select name="year" id="year">
+          <option value="">select year</option>
+          <option value="first">First</option>
+          <option value="second">Second</option>
+          <option value="third">Third</option>
+          <option value="four">Four</option>
+        </select>
+      </p>
+      <p>Date of birth: <input type="date" name="dob" id="dob" /></p>
+      <p>
+        Select gender:
+        <input type="radio" id="male" name="gender" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label>
+      </p>
+      <p>Library Id: <input type="text" name="library" id="library" /></p>
+      <p><input type="submit" value="submit" /></p>
+    </form>
+  </body>
+</html>
